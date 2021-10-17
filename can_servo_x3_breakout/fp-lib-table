@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ARCL)(type KiCad)(uri ${KIPRJMOD}/../lib/kicad/footprints/ARCL.pretty)(options "")(descr ""))
+)
