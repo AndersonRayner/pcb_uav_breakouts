@@ -58,22 +58,16 @@ F 3 "~" H 7100 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J1
+L Connector:Conn_01x04_Male J1
 U 1 1 616CEFDD
-P 5100 2450
-F 0 "J1" H 5208 2631 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 5208 2540 50  0000 C CNN
-F 2 "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical" H 5100 2450 50  0001 C CNN
-F 3 "~" H 5100 2450 50  0001 C CNN
-	1    5100 2450
+P 5800 2450
+F 0 "J1" H 5950 2700 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 5900 2650 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical" H 5800 2450 50  0001 C CNN
+F 3 "~" H 5800 2450 50  0001 C CNN
+	1    5800 2450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 2450 5650 2450
-Wire Wire Line
-	5650 2450 5650 2350
-Wire Wire Line
-	5650 2350 5800 2350
 Connection ~ 6350 2350
 Wire Wire Line
 	6350 2350 6700 2350
@@ -83,12 +77,6 @@ Wire Wire Line
 Connection ~ 7000 2350
 Wire Wire Line
 	7000 2350 7300 2350
-Wire Wire Line
-	5300 2550 5650 2550
-Wire Wire Line
-	5650 2550 5650 2650
-Wire Wire Line
-	5650 2650 5800 2650
 Connection ~ 6350 2650
 Wire Wire Line
 	6350 2650 6700 2650
@@ -138,14 +126,12 @@ F 3 "" H 5800 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5800 2350 5800 2100
-Connection ~ 5800 2350
 Wire Wire Line
-	5800 2350 6350 2350
+	5800 2350 6000 2350
 Wire Wire Line
 	5800 2650 5800 2800
-Connection ~ 5800 2650
 Wire Wire Line
-	5800 2650 6350 2650
+	5800 2650 6000 2650
 $Comp
 L Connector:Conn_01x01_Male J7
 U 1 1 616D4732
@@ -201,4 +187,16 @@ F 3 "~" H 7400 2450 50  0001 C CNN
 	1    7400 2450
 	1    0    0    -1  
 $EndComp
+Connection ~ 6000 2350
+Wire Wire Line
+	6000 2350 6350 2350
+Connection ~ 6000 2650
+Wire Wire Line
+	6000 2650 6350 2650
+Wire Wire Line
+	6000 2450 6350 2450
+Connection ~ 6350 2450
+Wire Wire Line
+	6350 2550 6000 2550
+Connection ~ 6350 2550
 $EndSCHEMATC

@@ -300,7 +300,7 @@ NoConn ~ 5950 1350
 Wire Wire Line
 	5850 1350 5950 1350
 $Comp
-L ARCL:afa_logo AFA1
+L can_servo_x6_breakout-rescue:afa_logo-ARCL AFA1
 U 1 1 5F693BDA
 P 4350 3650
 F 0 "AFA1" H 4628 3696 50  0000 L CNN
